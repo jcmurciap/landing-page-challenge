@@ -5,30 +5,13 @@ import Categories from "./Categories";
 import Moda from "./Moda";
 import Electro from "./Electro";
 import Belleza from "./Belleza";
+import Legend from "./Legend";
 
 const App = () => {
 
 	return (
   		<>
-		  	<Box sx={{
-				backgroundColor: "#F6F6F6", 
-				borderTop: "3px solid #aad500",
-			}}>
-				<Box
-					alt="logo-falabella"
-					component="img"
-					src={require("./images/falabella-logo.png")}
-					sx={{
-						height:100,
-						width:100,
-						position: "absolute",
-						zIndex: 10,
-					}}
-				/>
-				<Typography
-					sx={{fontFamily: "Lato, sans-serif", fontSize: 13, textAlign:"center"}}
-				><b>¡No hagas filas ! <u>Agenda tu visita a tienda</u></b>, con el día, hora y la tienda que más te acomode.</Typography>
-			</Box>
+		  	<Legend />
 			<Header />
 			<Categories />
 			<Box sx={{marginX: "130px"}}>

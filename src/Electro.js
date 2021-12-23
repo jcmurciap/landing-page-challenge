@@ -1,46 +1,51 @@
 import React, { useState } from "react";
 import ItemsCarousel from 'react-items-carousel';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import { Button } from "@mui/material";
+import Button from "@mui/material/Button";
+import { styled } from '@mui/material/styles';
+import { Title } from './Categories';
+
+const Image = styled(Box)(({theme}) => ({
+    width: "200px", 
+    height: "200px", 
+    transition: "all 0.5s ease-out",
+    opacity: 0.9, 
+    boxShadow: 2,
+    [theme.breakpoints.down('md')]:{
+        width: "180px", 
+        height: "180px",
+        numberOfCards: 1
+    },
+    "&:hover":{opacity: 1, cursor: "pointer"}
+}));
 
 const Electro = () => {
 
     const [active, setActive] = useState(0);
+    
     const images = [
-        {id: 1, path: './images/lavajilla'},
-        {id: 2, path: './images/aspiradora'},
-        {id: 3, path: './images/freidora'},
-        {id: 4, path: './images/licuadora'},
-        {id: 5, path: './images/secador-pelo'},
-        {id: 6, path: './images/vaporizador'},
+        {id: 1, path: 'lavajilla'},
+        {id: 2, path: 'aspiradora'},
+        {id: 3, path: 'freidora'},
+        {id: 4, path: 'licuadora'},
+        {id: 5, path: 'secador-pelo'},
+        {id: 6, path: 'vaporizador'},
     ];
 
     return (
-        <Box sx={{marginTop: "50px"}}>
-			<Typography
-                sx={{
-                    color:"#212529", 
-				    fontSize: "1.625rem", 
-				    fontFamily:'Lato, sans-serif',
-				    fontWeight: 400,
-                    marginBottom: "20px",
-                    marginTop: "100px",
-                }}
-            >
-                Electro
-            </Typography>
+        <Box>
+			<Title>Electro</Title>
             <ItemsCarousel
                 autoplay
                 infiniteLoop={true}
                 gutter={1}
-                timeout={1}
+                timeout={3}
                 activePosition={"center"}
                 chevronWidth={60}
                 disableSwipe={false}
                 alwaysShowChevrons={true}
                 numberOfCards={4}
-                slidesToScroll={3}
+                slidesToScroll={1}
                 outsideChevron={true}
                 showSlither={false}
                 firstAndLastGutter={false}
@@ -50,19 +55,11 @@ const Electro = () => {
                 leftChevron={"<"}
             >
                 {images.map(image => (
-                    <Box
+                    <Image
                         key={image.id}
                         alt="image"
                         component="img"
-                        src={require(`${image.path}.jpg`)}
-                        sx={{
-                            width: 200, 
-                            height: 200, 
-                            transition: "all 0.5s ease-out",
-                            opacity: 0.8, 
-                            boxShadow: 2,
-                            "&:hover":{opacity: 1, cursor: "pointer"}
-                        }}
+                        src={require(`./images/${image.path}.jpg`)}
                     />
                 ))}
             </ItemsCarousel>

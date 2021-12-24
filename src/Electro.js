@@ -44,7 +44,7 @@ const Electro = () => {
                 chevronWidth={60}
                 disableSwipe={false}
                 alwaysShowChevrons={true}
-                numberOfCards={4}
+                numberOfCards={3}
                 slidesToScroll={1}
                 outsideChevron={true}
                 showSlither={false}

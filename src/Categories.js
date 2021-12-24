@@ -3,7 +3,7 @@ import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import { styled } from '@mui/material/styles';
 
-const Title = styled(Typography)(({theme}) => ({
+export const Title = styled(Typography)(({theme}) => ({
 	fontSize: "26px", 
 	marginTop: "50px", 
 	color:"#323c47", 

@@ -1,7 +1,6 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { styled } from '@mui/material/styles';
-import EventAvailableOutlinedIcon from '@mui/icons-material/EventAvailableOutlined';
 
 const Logo = styled(Box)(({theme}) => ({
     position: "absolute",
@@ -23,6 +22,7 @@ const Blockquote = styled(Typography)(({theme}) => ({
     marginLeft: 0,
     [theme.breakpoints.down('md')]:{
 		marginLeft: "50px",
+        fontSize: "11px"
 	},
 }))
 

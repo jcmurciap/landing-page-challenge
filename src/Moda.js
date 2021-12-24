@@ -9,7 +9,7 @@ const Image = styled(Box)(({theme}) => ({
 	opacity:0.8, 
 	transition: "all 0.5s ease-out",
 	[theme.breakpoints.down('md')]: {
-		width: "90vw",
+		width: "100%",
 		height: "300px",
 		opacity: 0.9
 	},

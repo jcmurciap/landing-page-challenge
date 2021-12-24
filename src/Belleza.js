@@ -58,7 +58,12 @@ const Strong = styled(Typography)({
     textAlign:"center"
 });
 
-
+const Article = styled(Box)(({theme}) => ({
+    [theme.breakpoints.up('md')]:{
+        width: "35%",
+        padding: "15px"
+    }
+}))
 
 const Belleza = () => {
     
@@ -76,14 +81,15 @@ const Belleza = () => {
                     component="img"
                     src={require('./images/cremas2.jpg')}
                 />
-                <Box>
-                    <Title sx={{textAlign: "center"}}>Belleza</Title>
+                <Article>
+                    <Title sx={{textAlign: "center", marginTop: "20px"}}>Belleza</Title>
                     <Typography
                         sx={{
-                            marginX: "50px",
+                            marginX: "30px",
                             textAlign: "left",
                             color:"#212529",
                             fontFamily:'Lato, sans-serif',
+                            marginTop: "20px"
                         }}
                     >
                         Encuentra tus productos favoritos para expresar lo mejor de tu belleza. 
@@ -92,7 +98,7 @@ const Belleza = () => {
                     <Section>
                         <Btn variant="outlined">Ver todo</Btn>
                     </Section>
-                </Box>
+                </Article>
             </Box>
 
             {/* OK */}

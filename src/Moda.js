@@ -16,6 +16,12 @@ const Image = styled(Box)(({theme}) => ({
 	"&:hover": {opacity: 1, cursor: "pointer"},
 }));
 
+const ImageGroup = styled(Image)(({theme}) => ({
+	[theme.breakpoints.up('md')]:{
+		height: "220px"
+	}
+}))
+
 const Moda = () => {
     return (
         <Box sx={{marginTop: "40px"}}>
@@ -29,12 +35,12 @@ const Moda = () => {
 					/>
 				</Grid>
 				<Grid item xs={12} md={4}>
-					<Image
+					<ImageGroup
 						alt="zapatos"
 						component="img"
 						src={require('./images/shoes_moda.jpg')}
 					/>
-					<Image
+					<ImageGroup
 						alt="accesorios"
 						component="img"
 						src={require('./images/accesorios.jpg')}

@@ -1,5 +1,7 @@
 # Propuesta landing page Falabella.
 
+##Aviso importante:
+Para que se pueda ver todo el codigo es necesario seleccionar la rama de desarrollo(development), NO la rama principal(MAIN). 
 Esta idea fue desarrollada por la autoria de Juan Camilo Murcia. 
 
 ## Descripcion

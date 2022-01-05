@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/landing-page-challenge/static/js/main.bce04ca3.js",
+    "static/media/electrodomesticos.jpg": "/landing-page-challenge/static/media/electrodomesticos.6bec03f4b13b0d185ea6.jpg",
+    "static/media/polvos.jpg": "/landing-page-challenge/static/media/polvos.7460c3d8946e51bfdf6c.jpg",
+    "static/media/dress.jpg": "/landing-page-challenge/static/media/dress.ac327bfab6fd1e73b2a4.jpg",
+    "static/media/cremas2.jpg": "/landing-page-challenge/static/media/cremas2.c01397da249b3b4b89c3.jpg",
+    "static/media/belleza.jpg": "/landing-page-challenge/static/media/belleza.10e5bbe89c155cb60779.jpg",
+    "static/media/mothers_day.jpg": "/landing-page-challenge/static/media/mothers_day.f8a0712983fde81b5671.jpg",
+    "static/media/shoes_moda.jpg": "/landing-page-challenge/static/media/shoes_moda.76a7bec9c1c83837025e.jpg",
+    "static/media/pantalon.jpg": "/landing-page-challenge/static/media/pantalon.2262b447da6a6edb655d.jpg",
+    "static/media/accesorios.jpg": "/landing-page-challenge/static/media/accesorios.f5c38dd83e63580fb60d.jpg",
+    "static/media/secador-pelo.jpg": "/landing-page-challenge/static/media/secador-pelo.7b7d1c5063ea38e054e5.jpg",
+    "static/media/lavajilla.jpg": "/landing-page-challenge/static/media/lavajilla.b16952bae0e33427b979.jpg",
+    "static/media/main-moda.jpg": "/landing-page-challenge/static/media/main-moda.4f93de64375c07f42dcf.jpg",
+    "static/media/moda.jpg": "/landing-page-challenge/static/media/moda.486893a14e2d8c80417b.jpg",
+    "index.html": "/landing-page-challenge/index.html",
+    "main.bce04ca3.js.map": "/landing-page-challenge/static/js/main.bce04ca3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bce04ca3.js"
+  ]
+}

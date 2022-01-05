@@ -15,9 +15,11 @@ En este desafio utilice las siguientes herramientas tecnologicas:
 Si se desea ver el landing en version demo se debe realizar los siguientes pasos: 
 1. Descargar el codigo.
 2. Abril una terminal de comandos.
-Usuarios Windows: 
+
+`Usuarios Windows`: 
 a. Presiona CTRL + R y te aparecerá una ventana que pone ejecutar. En ella debes escribir cmd.
-Usuarios Linux/Mac
+`Usuarios Linux/Mac`
 a. Ya sabes como.
+
 2. Ejecutar `npm install` para instalar los modulos necesarios de Node.js.
 3. Ejecutar `npm start` para abrir un nuevo localhost.

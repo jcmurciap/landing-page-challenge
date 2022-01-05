@@ -12,14 +12,15 @@ const Image = styled(Box)(({theme}) => ({
 }));
 
 const Logo = styled(Typography)(({theme}) => ({
-	fontFamily:"Amatic SC, cursive",
-	fontSize: "8rem",
+	fontFamily:"Poppins, sans-serif",
+	fontSize: "5rem",
+	color: "#8FAC5D",
 	left: "100px",
 	position: "absolute",
 	top: "80px",
 	width: "200px",
 	[theme.breakpoints.down('md')]:{
-		fontSize: "3rem",
+		fontSize: "2rem",
 		left: "30px",
 		width: "70px"	
 	},
@@ -34,7 +35,7 @@ const Header = () => {
 				src={require("./images/mothers_day.jpg")}
 			/>
 			<Logo component="h1" variant="h1">
-				DÍA DE LA MADRE
+				FELIZ DÍA DE LA MADRE 	
 			</Logo>
     	</>
     );
